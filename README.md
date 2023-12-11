@@ -29,24 +29,4 @@ print(sq)
 print(sq.get_picture())
 
 rect.set_height(8)
-rect.set_width(16)
-print(rect.get_amount_inside(sq))
-Square Class
-The Square class is a subclass of Rectangle and inherits its methods.
-
-Additional Method
-set_side(self, side): Sets the side length of the Square, adjusting both width and height.
-Example
-python
-Copy code
-sq = shape_calculator.Square(9)
-print(sq.get_area())
-sq.set_side(4)
-print(sq.get_diagonal())
-print(sq)
-print(sq.get_picture())
-Development
-Write your code in shape_calculator.py. For development, you can use main.py to test your shape_calculator() function. Click the "run" button, and main.py will execute.
-
-Testing
-Unit tests are available in test_module.py. They will run automatically whenever you hit the "run" button. Ensure that your implementations pass all tests before finalizing your project.
+rect.set_width(
